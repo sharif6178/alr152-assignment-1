@@ -1,0 +1,20 @@
+.fancy { /*src : https://gist.github.com/ratbeard/9076500*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-gradient(linear,  left top,  left bottom, 
+        color-stop(0.00, red), 
+        color-stop(16%, orange),
+        color-stop(32%, yellow),
+        color-stop(48%, green),
+        color-stop(60%, blue),
+        color-stop(76%, indigo),
+        color-stop(1.00, violet));
+}
+
+.boring { /* almost black. How exciting.*/
+    color: #0F0F0F;
+}
+
+#header {
+    text-align: center;
+}
